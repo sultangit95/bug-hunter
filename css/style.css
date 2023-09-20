@@ -20,6 +20,9 @@ ul {
 ===========================*/
 #header{
   padding: 30px 20px;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
 }
 .header-items{
   display: flex;
@@ -42,6 +45,7 @@ ul {
 }
 #banner{
   background: #010313;
+  padding-top: 150px;
 }
 .live-bug{
   width: 80px;
@@ -67,11 +71,14 @@ ul {
   color: #fff;
   background: #150F2D;
   padding-right: 30px;
+  font-size: 20px;
 }
 .bug-description p{
   color: #fff;
   background: #150F2D;
   text-align: justify;
+  padding-top: 20px;
+  line-height: 26px;
 }
 #banner .banner-slider .slider-item {
   position: relative;
@@ -81,8 +88,8 @@ ul {
 #banner .banner-slider .prev-arrow {
   transition: all linear 0.4s;
   width: 140px;
-  padding: 5px 20px 5px 20px;
-  font-size: 20px;
+  padding: 6px 20px 6px 20px;
+  font-size: 18px;
   color: #fff;
   border: 1px solid #36225E;
   border-radius: 5px;
@@ -101,8 +108,8 @@ ul {
 #banner .banner-slider .next-arrow {
   transition: all linear 0.4s;
   width: 140px;
-  padding:5px 20px 5px 20px;
-  font-size: 20px;
+  padding:6px 20px 6px 20px;
+  font-size: 18px;
   color: #fff;
   border: 1px solid #36225E;
   border-radius: 5px;
@@ -134,6 +141,13 @@ ul {
     padding:5px 20px 5px 20px;
     right: 10%;
     bottom: 30px;
+  }
+  .bug-title{
+    padding-right: 20px;
+    font-size: 16px;
+  }
+  .bug-description p{
+    line-height: 21px;
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
