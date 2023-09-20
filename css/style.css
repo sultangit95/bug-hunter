@@ -43,20 +43,35 @@ ul {
 #banner{
   background: #010313;
 }
+.live-bug{
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.live-bug img{
+  width: 100%;
+  background: #150F2D;
+  border-radius: 0 20px 0 0;
+}
 .full-description{
   background: #150F2D;
   padding: 30px;
   margin: 0 auto;
   margin-bottom: 100px;
   border-radius: 20px;
+  position: relative;
 }
 .bug-title{
   color: #fff;
   background: #150F2D;
+  padding-right: 30px;
 }
 .bug-description p{
   color: #fff;
   background: #150F2D;
+  text-align: justify;
 }
 #banner .banner-slider .slider-item {
   position: relative;
