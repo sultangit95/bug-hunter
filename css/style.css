@@ -1,0 +1,153 @@
+/* ==========================
+===== common css starts =====
+=============================*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: #010313;
+}
+img {
+  vertical-align: middle;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* ========================
+===== common css ends =====
+===========================*/
+#header{
+  padding: 30px 20px;
+}
+.header-items{
+  display: flex;
+  align-items: center;
+}
+.logo-area{
+  width: 80px;
+  height: 80px;
+}
+.logo-area img{
+  width: 100%;
+  border-radius: 50%;
+}
+.logo-text{
+  margin-bottom: 0;
+  margin-left: 10px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+}
+#banner{
+  background: #010313;
+}
+.full-description{
+  background: #150F2D;
+  padding: 30px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  border-radius: 20px;
+}
+.bug-title{
+  color: #fff;
+  background: #150F2D;
+}
+.bug-description p{
+  color: #fff;
+  background: #150F2D;
+}
+#banner .banner-slider .slider-item {
+  position: relative;
+  z-index: 1;
+}
+
+#banner .banner-slider .prev-arrow {
+  transition: all linear 0.4s;
+  width: 140px;
+  padding: 5px 20px 5px 20px;
+  font-size: 20px;
+  color: #fff;
+  border: 1px solid #36225E;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  left: 40%;
+  bottom: 30px;
+  z-index: 9;
+}
+#banner .banner-slider .prev-arrow:hover {
+  background:#EAAAFF;
+  border-color: #EAAAFF;
+  color: #010313;
+}
+#banner .banner-slider .next-arrow {
+  transition: all linear 0.4s;
+  width: 140px;
+  padding:5px 20px 5px 20px;
+  font-size: 20px;
+  color: #fff;
+  border: 1px solid #36225E;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  right: 40%;
+  bottom: 30px;
+  z-index: 9;
+}
+#banner .banner-slider .next-arrow:hover {
+  background:#EAAAFF;
+  border-color: #EAAAFF;
+  color: #010313;
+}
+/* ========================
+===== banner css ends =====
+==========================*/
+@media (min-width: 360px) and (max-width: 575px) {
+  #banner .banner-slider .prev-arrow {
+    width: 140px;
+    padding: 5px 20px 5px 20px;
+    left: 10%;
+    bottom: 30px;
+  }
+  #banner .banner-slider .next-arrow {
+    
+    width: 140px;
+    padding:5px 20px 5px 20px;
+    right: 10%;
+    bottom: 30px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  #banner .banner-slider .prev-arrow {
+    width: 140px;
+    padding: 5px 20px 5px 20px;
+    left: 20%;
+    bottom: 30px;
+  }
+  #banner .banner-slider .next-arrow {
+    
+    width: 140px;
+    padding:5px 20px 5px 20px;
+    right: 20%;
+    bottom: 30px;
+  }
+}
+@media (min-width: 768px) and (max-width: 920px) {
+  #banner .banner-slider .prev-arrow {
+    width: 140px;
+    padding: 5px 20px 5px 20px;
+    left: 30%;
+    bottom: 30px;
+  }
+  #banner .banner-slider .next-arrow {
+    
+    width: 140px;
+    padding:5px 20px 5px 20px;
+    right: 30%;
+    bottom: 30px;
+  }
+}
